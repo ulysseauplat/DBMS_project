@@ -1,0 +1,13 @@
+For Query B write something like:
+
+For each terminal, the median transaction amount during Q4 2018 was computed. Transactions occurring during Q1 2019 whose amount exceeded 130% of the terminal-specific median were identified as potential anomalies. Due to memory limitations, a terminal-by-terminal median computation using Cypher subqueries was adopted instead of a global aggregation approach.
+
+Also record:
+
+Dataset: 50 MB
+Number of terminals: 300
+Number of customers: 2000
+Number of transactions: 1,015,882
+Query execution time (whatever Neo4j reported)
+
+
